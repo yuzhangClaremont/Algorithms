@@ -36,7 +36,7 @@ or
 ## make change problem
 https://www.youtube.com/watch?v=UcIW0AqSQ4g
 make change of the target using lest coins in a list
-![make change](iCloud Drive/Desktop/makeChange.png)
+![image](iCloud Drive/Desktop/makeChange.png)
 
 path problem: for every decision tree, choose branch with least cost
 
