@@ -38,6 +38,7 @@ https://www.youtube.com/watch?v=UcIW0AqSQ4g
 make change of the target using lest coins in a list
 
 ![makechange](https://user-images.githubusercontent.com/31321544/40359796-891841fc-5df6-11e8-9051-2cfd3d617629.png = 200x200)
+<img src="https://user-images.githubusercontent.com/31321544/40359796-891841fc-5df6-11e8-9051-2cfd3d617629.png" width="100">
 
 
 
