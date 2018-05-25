@@ -38,12 +38,36 @@ https://www.youtube.com/watch?v=UcIW0AqSQ4g
 make change of the target using lest coins in a list
 
 <img src="https://user-images.githubusercontent.com/31321544/40359796-891841fc-5df6-11e8-9051-2cfd3d617629.png" width="400">
+greedy algorithm works iff A=[1, b, b^2, b^3...]
 
 
-
-path problem: for every decision tree, choose branch with least cost
+## greedy path problem: 
+for every decision tree, choose branch with least cost
 
 39 min
 2-d array peak, point is a peak iff it's >= than all points in the east, west, north,and south
 find a peak in a 2-d array
 
+# Divide and Conquer
+
+why want to sort?
+1. after sort, use O(1) to find median
+2. able to use binary sort to find certain element, use O(lgn) time instead of O(n)
+3. to compress data
+
+## insertion sort
+insert A[i] to an sorted array A[0:i-1] by pair swapping to the correct position
+A = [5,2,4,6,1,3]
+A= A[0] = [5], key A[1]= 2 -> swap 5,2 -> A[2,5,4,6,1,3]
+key move to 2, A[2]=4 -> swap 5,4 ->A[2,4,5,6,1,3]
+
+key move n times, O(n^2) runtime
+(http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/ markdown math)
+
+## Merge Sort
+1. divide array into two part
+2. recursively divide the two arrays until they have 1 elements, and they are natually sorted
+3. merge the two sorted arrays by two finger methods. Comparing two tracks, and copy to a merged array
+4. runtime O(n)
+5. recursive relation: T(n) = c1(divide) + 2T(n/2) (recurse) + cn (merge)
+<img src="https://user-images.githubusercontent.com/31321544/40533633-f9a7b11e-6035-11e8-8f84-edced62009eb.png" width = 400>
